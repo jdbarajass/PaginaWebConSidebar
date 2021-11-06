@@ -5,6 +5,43 @@ import Logo from "media/12.png";
 
 const Perfil = () => {
   return (
+    <div>
+      <h2 className="mt-6 text-center text-3xl font-extrabold text-gray-900">
+        Perfil De Tomas Eduardo Bernal Chaparro
+      </h2>
+        <img className="" src={Logo} alt="Foto De Pefil De Tomas" />
+      <div className="mt-6 text-center text-xl font-extrabold text-blue-900 ">
+        <h3>
+          Nombre: <spam className="text-green-300 ">Tomas Eduardo</spam>
+        </h3>
+        <h3>Apellido: <spam className="text-green-300 ">Bernal Chaparro</spam> </h3>
+        <h3>Edad: <spam className="text-green-300 ">17</spam></h3>
+        <h3>Lugar De Nacimiento: <spam className="text-green-300 ">Colombia - Bogotá</spam> </h3>
+        <h3>Colegio: <spam className="text-green-300 ">Nombnre del colegio</spam></h3>
+        <h3>Grado: <spam className="text-green-300 ">11</spam></h3>
+      </div>
+      <p className="p-6">
+        Hobbie: Hobby es una palabra del inglés que se emplea para referirse a
+        los pasatiempos o actividades que se practican por gusto y de forma
+        recreativa en el tiempo libre. Como tal, hobby [jobi] es un anglicismo
+        que en español podemos traducir como ‘pasatiempo’ o ‘distracción
+        predilecta’. Su plural se escribe hobbies [jobis]. Un hobby no es una
+        obligación que demande dedicación a tiempo completo, sino que se
+        practica por placer, con el objetivo de aliviar el estrés de la rutina
+        cotidiana, sea escolar o laboral y, por ello, no reporta ninguna clase
+        de beneficio de tipo económico. En este sentido, un hobby no es una
+        actividad laboral, sino una vía de escape para relajarnos y esparcirnos.
+        En todo caso, puede contener cierto nivel de afinidad con nuestra
+        ocupación profesional, lo que, a su modo, puede reportar conocimientos o
+        ayudar a desarrollar determinadas aptitudes.{" "}
+      </p>
+    </div>
+  );
+};
+
+export default Perfil;
+/*
+return (
     <>
       <div className="max-w-md w-full space-y-8">
         <img className="mx-auto h-30 w-auto" src={Logo} alt="Workflow" />
@@ -68,10 +105,6 @@ const Perfil = () => {
               className=" button group relative w-full flex justify-center py-2 px-4 border border-transparent text-sm font-medium rounded-md "
             >
               <span className="absolute left-0 inset-y-0 flex items-center pl-3">
-                {/* <LockClosedIcon
-                  className='h-5 w-5 text-indigo-500 group-hover:text-indigo-400'
-                  aria-hidden='true'
-                /> */}
               </span>
               <Link to="/admin">Inicia sesión</Link>
             </button>
@@ -109,6 +142,4 @@ const Perfil = () => {
       </div>
     </>
   );
-};
-
-export default Perfil;
+*/
