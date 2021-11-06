@@ -11,6 +11,7 @@ import Numerico from "pages/Numerico";
 import Perfil from "pages/Perfil";
 import Sociales from "pages/Sociales";
 import "styles/globals.css";
+import "styles/styles.css";
 
 // import PrivateRoute from 'components/PrivateRoute';
 

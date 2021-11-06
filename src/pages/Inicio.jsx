@@ -1,6 +1,5 @@
 import React from 'react'
 
-
 const Inicio = () => {
     return (
       <div>
@@ -124,7 +123,7 @@ const Inicio = () => {
           </div>
           <div>
             <iframe
-              src="https://docs.google.com/viewer?srcid=1vzqyAUqXQggWKaGPLKlIwNJg1s6oxM0P&pid=explorer&efh=false&a=v&chrome=false&embedded=true"
+              src="https://docs.google.com/viewer?srcid=1w1R21fHw1Guzq-cY7DutvwPcU_XizOQ8&pid=explorer&efh=false&a=v&chrome=false&embedded=true"
               width="100%"
               height="680px"
             ></iframe>
@@ -188,3 +187,4 @@ const Inicio = () => {
 }
 
 export default Inicio;
+// 1w1R21fHw1Guzq-cY7DutvwPcU_XizOQ8 || 1vzqyAUqXQggWKaGPLKlIwNJg1s6oxM0P

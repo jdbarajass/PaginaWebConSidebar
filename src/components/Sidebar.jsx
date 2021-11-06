@@ -1,23 +1,32 @@
 import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
-
+import { Link } from "react-router-dom";
 const SidebarLinks = () => {
   return (
-    <ul className="mt-12">
-      <SidebarRoute to="/Perfil" title="Perfil" icon="fas fa-smile-wink" />
-      <SidebarRoute to="/Ingles" title="Inglés" icon="fas fa-language" />
-      <SidebarRoute to="/Espanol" title="Español" icon="fas fa-book" />
-      <SidebarRoute to="/Numerico" title="Númerico" icon="fas fa-list-ol" />
-      <SidebarRoute to="/Sociales" title="Sociales" icon="fas fa-landmark" />
-    </ul>
+    <div>
+      <ul className="mt-12">
+        <SidebarRoute to="/Perfil"title="Perfil De Tomas Bernal"icon="fas fa-smile-wink"/>
+        <SidebarRoute to="/Ingles" title="Inglés" icon="fas fa-language" />
+        <SidebarRoute to="/Espanol" title="Español" icon="fas fa-book" />
+        <SidebarRoute to="/Numerico" title="Númerico" icon="fas fa-list-ol" />
+        <SidebarRoute to="/Sociales" title="Sociales" icon="fas fa-landmark" />
+      </ul>
+      <div className="mt-20 ">
+        <Link to="/Inicio"  >
+        <button className="button">Otra forma de ver la página</button>
+        </Link>
+      </div>
+    </div>
   );
 };
 
 const Logo = () => {
   return (
-    <div className='py-3 w-full flex flex-col items-center justify-center'>
-      <img src='logo.png' alt='Logo' className='h-16' />
-      <span className='my-2 text-xl font-bold text-center'>Título de Mi Aplicación</span>
+    <div className="py-3 w-full flex flex-col items-center justify-center">
+      <img src="logo.png" alt="Logo" className="h-16" />
+      <span className="my-2 text-xl font-bold text-center">
+        Actividades Finales 4to Periodo
+      </span>
     </div>
   );
 };
