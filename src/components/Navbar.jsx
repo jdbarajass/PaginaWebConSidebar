@@ -6,7 +6,7 @@ const Navbar = () => {
       <div className="container mx-auto PX-4">
         <div className="sm:flex justify-around">
           <a href="/Perfil" className="text-white text-3xl font-bold p-3">
-            Actividades Finales 4to Periodo
+            Proyecto Final Grado 11
           </a>
 
           <ul className="text-gray-400 sm:self-center text-xl border-t sm:border-none">

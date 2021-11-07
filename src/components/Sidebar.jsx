@@ -35,7 +35,7 @@ const Logo = () => {
       </div>
       <div className="w-full flex flex-col items-center justify-center">
         <span className="text-xl font-bold text-center">
-          Actividades Finales 4to Periodo
+          Proyecto Final Grado 11
         </span>
       </div>
     </div>
