@@ -1,24 +1,42 @@
 import React from "react";
-import Google from "media/LogoGoogle.png";
-import { Link } from "react-router-dom";
-import Logo from "media/12.png";
+//import Google from "media/LogoGoogle.png";
+//import { Link } from "react-router-dom";
+
+import FotoPerfil from "media/FotoPerfil.png";
 
 const Perfil = () => {
   return (
-    <div>
-      <h2 className="mt-6 text-center text-3xl font-extrabold text-gray-900">
+    <div className="bg-blue-200 object-center ">
+      <h2 className="mt-6 text-center text-3xl font-extrabold text-indigo-400">
         Perfil De Tomas Eduardo Bernal Chaparro
       </h2>
-        <img className="" src={Logo} alt="Foto De Pefil De Tomas" />
+      <div className="hidden md:block h-auto">
+        <img
+          className="grid max-w-6xl grid-cols-1 mx-auto mt-8 lg:grid-cols-7 font-display"
+          src={FotoPerfil}
+          alt="Foto De Pefil De Tomas"
+        />
+      </div>
       <div className="mt-6 text-center text-xl font-extrabold text-blue-900 ">
         <h3>
-          Nombre: <spam className="text-green-300 ">Tomas Eduardo</spam>
+          Nombre: <spam className="text-indigo-400 ">Tomas Eduardo</spam>
         </h3>
-        <h3>Apellido: <spam className="text-green-300 ">Bernal Chaparro</spam> </h3>
-        <h3>Edad: <spam className="text-green-300 ">17</spam></h3>
-        <h3>Lugar De Nacimiento: <spam className="text-green-300 ">Colombia - Bogotá</spam> </h3>
-        <h3>Colegio: <spam className="text-green-300 ">Nombnre del colegio</spam></h3>
-        <h3>Grado: <spam className="text-green-300 ">11</spam></h3>
+        <h3>
+          Apellido: <spam className="text-indigo-400 ">Bernal Chaparro</spam>{" "}
+        </h3>
+        <h3>
+          Edad: <spam className="text-indigo-400 ">17</spam>
+        </h3>
+        <h3>
+          Lugar De Nacimiento:
+          <spam className="text-indigo-400 ">Colombia - Bogotá</spam>{" "}
+        </h3>
+        <h3>
+          Colegio: <spam className="text-indigo-400 ">Nombnre del colegio</spam>
+        </h3>
+        <h3>
+          Grado: <spam className="text-indigo-400 ">11</spam>
+        </h3>
       </div>
       <p className="p-6">
         Hobbie: Hobby es una palabra del inglés que se emplea para referirse a

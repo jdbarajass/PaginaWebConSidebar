@@ -2,16 +2,16 @@ import React from 'react'
 import { Link } from "react-router-dom";
 import calculo1 from "media/calculo1.png";
 import calculo2 from "media/calculo2.png";
-const Numerico = () => {
+const Calculo = () => {
     return (
-      <div>
+      <div className="bg-green-300 h-full">
         <div className="bg-green-300 h-20  ">
           <Link to="/perfil">
             <i className="fas fa-home cursor-pointer hover:text-indigo-500 p-2" />
             Ir a mi Perfil
           </Link>
           <br />
-          Numerico page
+          Pensamiento Númerico
         </div>
         <div className="">
           <div className="p-2">
@@ -25,4 +25,4 @@ const Numerico = () => {
     );
 }
 
-export default Numerico
+export default Calculo

@@ -7,9 +7,12 @@ import { UserContext } from "context/userContext";
 import Inicio from "pages/Inicio";
 import Espanol from "pages/Espanol";
 import Ingles from "pages/Ingles";
-import Numerico from "pages/Numerico";
+import Calculo from "pages/Calculo";
 import Perfil from "pages/Perfil";
+import Fisica from "pages/Fisica";
+import Quimica from "pages/Quimica";
 import Sociales from "pages/Sociales";
+import Contacto from "pages/Contacto";
 import "styles/globals.css";
 import "styles/styles.css";
 
@@ -28,15 +31,22 @@ function App() {
       <UserContext.Provider value={{ userData, setUserData }}>
         <BrowserRouter>
           <Routes>
+            <Route path="/Contacto" element={<Contacto />}>
+              <Route path="Contacto" element={<Contacto />} />
+            </Route>
+
             <Route path="/Inicio" element={<PrivateInicio />}>
               <Route path="Inicio" element={<Inicio />} />
+              <Route path="Contacto" element={<Contacto />} />
             </Route>
             <Route path="/" element={<PrivateLayout />}>
               <Route path="Espanol" element={<Espanol />} />
               <Route path="Ingles" element={<Ingles />} />
-              <Route path="Numerico" element={<Numerico />} />
+              <Route path="Calculo" element={<Calculo />} />
               <Route path="Perfil" element={<Perfil />} />
               <Route path="Sociales" element={<Sociales />} />
+              <Route path="Quimica" element={<Quimica />} />
+              <Route path="Fisica" element={<Fisica />} />
             </Route>
           </Routes>
         </BrowserRouter>
