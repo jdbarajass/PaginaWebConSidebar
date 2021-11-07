@@ -23,12 +23,7 @@ const Navbar = () => {
             </li>
             <li className="sm:inline-block">
               <a href="/Calculo" className="p-3 hover:text-white">
-                Calculo
-              </a>
-            </li>
-            <li className="sm:inline-block">
-              <a href="/Fisica" className="p-3 hover:text-white">
-                Física
+                Cálculo
               </a>
             </li>
             <li className="sm:inline-block">
@@ -36,13 +31,17 @@ const Navbar = () => {
                 Sociales
               </a>
             </li>
-
             <li className="sm:inline-block">
               <Link to="/Quimica">
                 <button classNameName="bg-gray-500 p-2 text-white rounded-lg shadow-md hover:bg-gray-400">
                   Quimica
                 </button>
               </Link>
+            </li>
+            <li className="sm:inline-block">
+              <a href="/Fisica" className="p-3 hover:text-white">
+                Física
+              </a>
             </li>
           </ul>
         </div>

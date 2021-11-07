@@ -7,7 +7,7 @@ const PrivateLayout = () => {
     <div className='flex flex-col md:flex-row flex-no-wrap h-screen'>
       <Sidebar />
       <div className='flex w-full h-full'>
-        <div className='w-full h-full  overflow-y-scroll'>
+        <div className='w-full h-full  overflow-y-scroll bg-blue-200'>
           <Outlet />
         </div>
       </div>

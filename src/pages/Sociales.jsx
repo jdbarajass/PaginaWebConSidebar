@@ -21,10 +21,10 @@ import Sociales18 from "media/Sociales18.jpg";
 
 const Sociales = () => {
     return (
-      <div className="bg-green-300 h-full  ">
-        <div className="bg-green-300 h-20  ">
+      <div className="bg-green-300 h-full text-center ">
+        <div className="text-xl font-extrabold">
           <Link to="/perfil">
-            <i className="fas fa-home cursor-pointer hover:text-indigo-500 p-2" />
+            <i className="text-red-700 fas fa-home cursor-pointer hover:text-indigo-500 p-2" />
             Ir a mi Perfil
           </Link>
           <br />

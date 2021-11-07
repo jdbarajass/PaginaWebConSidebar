@@ -6,8 +6,8 @@ import FotoPerfil from "media/FotoPerfil.png";
 
 const Perfil = () => {
   return (
-    <div className="bg-blue-200 object-center ">
-      <h2 className="mt-6 text-center text-3xl font-extrabold text-indigo-400">
+    <div className="bg-blue-200 text-center">
+      <h2 className="mt-6 text-center text-3xl font-extrabold text-blue-800">
         Perfil De Tomas Eduardo Bernal Chaparro
       </h2>
       <div className="hidden md:block h-auto">
@@ -17,9 +17,9 @@ const Perfil = () => {
           alt="Foto De Pefil De Tomas"
         />
       </div>
-      <div className="mt-6 text-center text-xl font-extrabold text-blue-900 ">
+      <div className="content-center text-center mt-2  text-xl font-extrabold text-blue-900 ">
         <h3>
-          Nombre: <spam className="text-indigo-400 ">Tomas Eduardo</spam>
+          Nombre: <spam className="text-indigo-400">Tomas Eduardo</spam>
         </h3>
         <h3>
           Apellido: <spam className="text-indigo-400 ">Bernal Chaparro</spam>{" "}
@@ -28,11 +28,10 @@ const Perfil = () => {
           Edad: <spam className="text-indigo-400 ">17</spam>
         </h3>
         <h3>
-          Lugar De Nacimiento:
-          <spam className="text-indigo-400 ">Colombia - Bogotá</spam>{" "}
+          Lugar De Nacimiento:<spam className="text-indigo-400 ">Colombia - Bogotá</spam>
         </h3>
         <h3>
-          Colegio: <spam className="text-indigo-400 ">Nombnre del colegio</spam>
+          Colegio: <spam className="text-indigo-400 ">Nombre del colegio</spam>
         </h3>
         <h3>
           Grado: <spam className="text-indigo-400 ">11</spam>
