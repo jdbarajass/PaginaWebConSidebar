@@ -1,7 +1,7 @@
 import React from 'react'
 
-const Quimica = () => {
+const Bioetico = () => {
     return <div>Pensamiento Bioetico</div>;
 }
 
-export default Quimica
+export default Bioetico

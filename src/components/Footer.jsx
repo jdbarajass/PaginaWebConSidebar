@@ -5,7 +5,7 @@ const Footer = () => {
       <div className="text-gray-100 bg-gray-800 mt-10" id="footer">
         <div className="max-w-3xl mx-auto py-6">
           <h1 className="text-center text-lg lg:text-2xl">
-            Sobre Mi Soy estudiante de grado once del colegio virtual Unicab
+            !!!Hola¡¡¡ Soy Estudiante Apasionado Por la Tecnología Del
           </h1>
 
           <div className="flex justify-center mt-6">
@@ -14,11 +14,11 @@ const Footer = () => {
                 <input
                   type="email"
                   className="m-1 p-2 appearance-none text-gray-700 text-sm focus:outline-none focus:placeholder-transparent"
-                  placeholder="Enter your email"
+                  placeholder="Colegio Virtual Unicab"
                   arial-label="Enter your email"
                 ></input>
                 <button className="w-full m-1 p-2 text-sm bg-gray-800 rounded font-semibold uppercase lg:w-auto hover:bg-gray-700">
-                  Informate
+                  De Grado 11
                 </button>
               </div>
             </div>
@@ -29,38 +29,32 @@ const Footer = () => {
           <div className="flex flex-col items-center justify-between mt-6 md:flex-row">
             <div>
               <a
-                href="/home"
+                href="/Perfil"
                 className="text-xl font-bold text-gray-100 hover:text-gray-400"
               >
-                Tomas Eduardo Bernal Chaparro
+                Sitio Web Realizado Por: Tomas Bernal Chaparro
               </a>
             </div>
 
             <div className="flex mt-4 md:m-0">
               <div className="flex mt-4 md:m-0">
                 <a
-                  href="/home"
+                  href="/inicio"
                   className="px-4 text-sm text-gray-100 font-medium hover_text-gray-400"
                 >
                   Home
                 </a>
                 <a
-                  href="/#Servicios"
+                  href="/perfil"
                   className="px-4 text-sm text-gray-100 font-medium hover_text-gray-400"
                 >
-                  Servicios
-                </a>
-                <a
-                  href="/#Imagenes"
-                  className="px-4 text-sm text-gray-100 font-medium hover_text-gray-400"
-                >
-                  Imagenes
+                  Mira Mi Perfil
                 </a>
                 <a
                   href="/Contacto"
                   className="px-4 text-sm text-gray-100 font-medium hover_text-gray-400"
                 >
-                  Contactos
+                  Contáctame
                 </a>
               </div>
             </div>

@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import PrivateLayout from "layouts/PrivateLayout";
 import PrivateInicio from "layouts/PrivateInicio";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { Auth0Provider } from "@auth0/auth0-react";
 import { UserContext } from "context/userContext";
 import Inicio from "pages/Inicio";
 import Espanol from "pages/Espanol";
@@ -10,9 +9,10 @@ import Ingles from "pages/Ingles";
 import Calculo from "pages/Calculo";
 import Perfil from "pages/Perfil";
 import Fisica from "pages/Fisica";
-import Quimica from "pages/Quimica";
+import Bioetico from "pages/Bioetico";
 import Sociales from "pages/Sociales";
 import Contacto from "pages/Contacto";
+import Gracias from "pages/Gracias";
 import "styles/globals.css";
 import "styles/styles.css";
 
@@ -22,12 +22,6 @@ function App() {
   const [userData, setUserData] = useState({});
 
   return (
-    <Auth0Provider
-      domain="misiontic-concesionario.us.auth0.com"
-      clientId="WsdhjjQzDLIZEHA6ouuxXGxFONFGAQ4g"
-      redirectUri="http://localhost:3000/admin"
-      audience="api-autenticacion-concesionario-mintic"
-    >
       <UserContext.Provider value={{ userData, setUserData }}>
         <BrowserRouter>
           <Routes>
@@ -45,13 +39,13 @@ function App() {
               <Route path="Calculo" element={<Calculo />} />
               <Route path="Perfil" element={<Perfil />} />
               <Route path="Sociales" element={<Sociales />} />
-              <Route path="Quimica" element={<Quimica />} />
+              <Route path="Bioetico" element={<Bioetico />} />
               <Route path="Fisica" element={<Fisica />} />
+              <Route path="Gracias" element={<Gracias />} />
             </Route>
           </Routes>
         </BrowserRouter>
       </UserContext.Provider>
-    </Auth0Provider>
   );
 }
 

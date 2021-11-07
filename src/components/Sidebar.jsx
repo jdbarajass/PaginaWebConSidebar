@@ -13,9 +13,9 @@ const SidebarLinks = () => {
         />
         <SidebarRoute to="/Ingles" title="Inglés" icon="fas fa-language" />
         <SidebarRoute to="/Espanol" title="Español" icon="fas fa-book" />
-        <SidebarRoute to="/Calculo" title="Cálculo" icon="fas fa-list-ol" />
+        <SidebarRoute to="/Bioetico" title="Bioético" icon="fas fa-flask" />
         <SidebarRoute to="/Sociales" title="Sociales" icon="fas fa-landmark" />
-        <SidebarRoute to="/Quimica" title="Química" icon="fas fa-flask" />
+        <SidebarRoute to="/Calculo" title="Cálculo" icon="fas fa-list-ol" />
         <SidebarRoute to="/Fisica" title="Física" icon="fas fa-brain" />
       </ul>
       <div className="mt-20 ">
