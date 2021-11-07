@@ -41,8 +41,8 @@ function App() {
               <Route path="Sociales" element={<Sociales />} />
               <Route path="Bioetico" element={<Bioetico />} />
               <Route path="Fisica" element={<Fisica />} />
-              <Route path="Gracias" element={<Gracias />} />
             </Route>
+              <Route path="Gracias" element={<Gracias />} />
           </Routes>
         </BrowserRouter>
       </UserContext.Provider>

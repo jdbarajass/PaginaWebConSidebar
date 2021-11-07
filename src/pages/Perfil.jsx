@@ -6,7 +6,7 @@ import FotoPerfil from "media/FotoPerfil.png";
 
 const Perfil = () => {
   return (
-    <div className="bg-blue-200 text-center">
+    <div className="bg-gray-300 text-center">
       <h2 className="mt-6 text-center text-3xl font-extrabold text-blue-800">
         Perfil De Tomas Eduardo Bernal Chaparro
       </h2>
