@@ -2,6 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+.sidebar {
+  @apply w-64 bg-gray-200 shadow flex-col justify-between;
+}
+
+.sidebar-route {
+  @apply rounded-md flex w-full justify-between cursor-pointer items-center m-3 p-3;
+}
+
 .contenedorHome {
   border: 1px blue solid;
   background-color: antiquewhite;

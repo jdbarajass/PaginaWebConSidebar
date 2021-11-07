@@ -11,7 +11,6 @@ import Bioetico from "pages/Bioetico";
 import Sociales from "pages/Sociales";
 import Contacto from "pages/Contacto";
 import Gracias from "pages/Gracias";
-import "styles/globals.css";
 import "styles/styles.css";
 
 // import PrivateRoute from 'components/PrivateRoute';
