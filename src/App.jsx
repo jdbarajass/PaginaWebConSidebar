@@ -1,8 +1,6 @@
-import React, { useState } from "react";
 import PrivateLayout from "layouts/PrivateLayout";
 import PrivateInicio from "layouts/PrivateInicio";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { UserContext } from "context/userContext";
 import Inicio from "pages/Inicio";
 import Espanol from "pages/Espanol";
 import Ingles from "pages/Ingles";
@@ -19,10 +17,7 @@ import "styles/styles.css";
 // import PrivateRoute from 'components/PrivateRoute';
 
 function App() {
-  const [userData, setUserData] = useState({});
-
   return (
-      <UserContext.Provider value={{ userData, setUserData }}>
         <BrowserRouter>
           <Routes>
             <Route path="/Contacto" element={<Contacto />}>
@@ -45,7 +40,6 @@ function App() {
               <Route path="Gracias" element={<Gracias />} />
           </Routes>
         </BrowserRouter>
-      </UserContext.Provider>
   );
 }
 
