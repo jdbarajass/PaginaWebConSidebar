@@ -14,7 +14,7 @@ const Perfil = () => {
         <img
           className="grid max-w-6xl grid-cols-1 mx-auto mt-8 lg:grid-cols-7 font-display"
           src={FotoPerfil}
-          alt="Foto De Pefil De Tomas"
+          alt="Foto De Pefil De Tomas Eduardo Bernal Chaparro"
         />
       </div>
       <div className="content-center text-center mt-2  text-xl font-extrabold text-blue-900 ">
@@ -28,7 +28,8 @@ const Perfil = () => {
           Edad: <spam className="text-indigo-400 ">17</spam>
         </h3>
         <h3>
-          Lugar De Nacimiento:<spam className="text-indigo-400 ">Colombia - Bogotá</spam>
+          Lugar De Nacimiento:
+          <spam className="text-indigo-400 ">Colombia - Bogotá</spam>
         </h3>
         <h3>
           Colegio: <spam className="text-indigo-400 ">Nombre del colegio</spam>
