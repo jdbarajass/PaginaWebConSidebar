@@ -1,7 +1,5 @@
 import React from 'react'
 import { Link } from "react-router-dom";
-import calculo1 from "media/calculo1.png";
-import calculo2 from "media/calculo2.png";
 
 const Bioetico = () => {
     return (
