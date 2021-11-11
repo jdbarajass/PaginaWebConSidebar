@@ -39,19 +39,15 @@ const Perfil = () => {
         </h3>
       </div>
       <p className="p-6">
-        Hobbie: Hobby es una palabra del inglés que se emplea para referirse a
-        los pasatiempos o actividades que se practican por gusto y de forma
-        recreativa en el tiempo libre. Como tal, hobby [jobi] es un anglicismo
-        que en español podemos traducir como ‘pasatiempo’ o ‘distracción
-        predilecta’. Su plural se escribe hobbies [jobis]. Un hobby no es una
-        obligación que demande dedicación a tiempo completo, sino que se
-        practica por placer, con el objetivo de aliviar el estrés de la rutina
-        cotidiana, sea escolar o laboral y, por ello, no reporta ninguna clase
-        de beneficio de tipo económico. En este sentido, un hobby no es una
-        actividad laboral, sino una vía de escape para relajarnos y esparcirnos.
-        En todo caso, puede contener cierto nivel de afinidad con nuestra
-        ocupación profesional, lo que, a su modo, puede reportar conocimientos o
-        ayudar a desarrollar determinadas aptitudes.{" "}
+        Hobbie: Soy Tomas Bernal un joven bogotano el cual tiene varios
+        pasatiempos, entre estos se encuentran que una de esos es realizar
+        ejercicio creo que es uno de mis favoritos a decir verdad me gusta
+        porque puedo sentirme libre que me despeja la cabeza de los problemas
+        cotidianos, también me gusta leer libros colombianos, los cuales creo
+        que son muy buenos retratan y resaltan nuestra cultura y mi ultimo
+        hobbie es cocinar explorar nuevas recetas conocer un poco mas acerca de
+        alimentos o comidas que en lo personal son desconocidas para mi estos
+        son mis hobbies espero que le agraden mucho..
       </p>
     </div>
   );
