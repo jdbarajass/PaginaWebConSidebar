@@ -1,9 +1,9 @@
 import React from "react";
-import Ingles from "media/Delitos1.jpg";
-import Espanol from "media/Sociales1.jpg";
-import Bioetico from "media/calculo1.png";
-import Sociales from "media/Sociales2.jpg";
-import Calculo from "media/Sociales3.jpg";
+import Ingles from "media/ingles1.jpg";
+import Espanol from "media/Delitos1.jpg";
+import Bioetico from "media/Bioetico1.jpg";
+import Sociales from "media/Sociales1.jpg";
+import Calculo from "media/calculo1.png";
 import Fisica from "media/Fisica.jpg";
 import Tecnologia from "media/Tecnologia.jpeg";
 import { Link } from "react-router-dom";

@@ -39,15 +39,13 @@ const Perfil = () => {
         </h3>
       </div>
       <p className="p-6">
-        Hobbie: Soy Tomas Bernal un joven bogotano el cual tiene varios
-        pasatiempos, entre estos se encuentran que una de esos es realizar
-        ejercicio creo que es uno de mis favoritos a decir verdad me gusta
-        porque puedo sentirme libre que me despeja la cabeza de los problemas
-        cotidianos, también me gusta leer libros colombianos, los cuales creo
-        que son muy buenos retratan y resaltan nuestra cultura y mi ultimo
-        hobbie es cocinar explorar nuevas recetas conocer un poco mas acerca de
-        alimentos o comidas que en lo personal son desconocidas para mi estos
-        son mis hobbies espero que le agraden mucho..
+        Hobbie: ¡¡¡Hola!!! Soy Tomas Bernal, joven estudiante de la ciudad de
+        Bogotá, el cual tiene varios pasatiempos, uno de ellos es el de realizar ejercicio a decir verdad creo que es uno de mis favoritos, me gusta
+        porque puedo sentirme libre, me despeja la cabeza de los problemas
+        cotidianos y ayuda a relajarme. También me gusta leer literatura
+        colombiana, los cuales creo que son muy buenos retratan ya que resaltan
+        nuestra cultura y mi último hobbie es cocinar explorar nuevas recetas
+        conocer un poco más acerca de alimentos o comidas que en lo personal son desconocidas para mí. Estos son mis hobbies espero que le agraden mucho.
       </p>
     </div>
   );
